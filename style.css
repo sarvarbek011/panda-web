@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 1260px;
+    height: 104px;
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+
+}
+
+header {
+    background-image: url(./7a984625130ace301ca001b120b17903d0579fbf\ \(3\).png);
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.menyu {
+    text-decoration: none;
+
+}
+
+.navbar a {
+    margin-right: 30px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.col {
+    color: #FFFFFF;
+    padding: 300px;
+    padding-left: 22px;
+    font-size: 70px;
+}
+
+.orqa {
+    background: #3722c3;
+    background: linear-gradient(0deg, rgba(55, 34, 195, 1) 0%, rgba(55, 34, 195, 0) 62%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+.tether {
+    background-color: chartreuse;
+    height: 248px;
+    padding-left: 170px;
+    padding-top: 80px;
+}
+
+.sect2 {
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+    padding-top: 70px;
+    padding-left: 100px;
+    width: ;
+}
+
+.sect3 {
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+    justify-content: center;
+
+}
+
+.card2 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card1 {
+    transition: transform 0.3s ease, box-shadow 0
+}
+
+.card4 {
+    transition: transform 0.3s ease, box-shadow 0
+}
+
+.card2:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card4:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card1:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.hash {
+    padding-left: 100px;
+}
+
+.kdiv1 {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+
+}
+
+.card1 {
+    background-color: #FE8235;
+    margin: 30PX;
+    width: 360px;
+    height: 264px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card2 {
+    background-color: #5224B5;
+    width: 360px;
+    height: 264px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.rasm1 {
+    padding-top: 30px;
+}
+
+.kdiv2 {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.card4 {
+    background-color: #5224B5;
+    width: 360px;
+    height: 264px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+.sect4 {
+
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+}
+
+.sect4h1 {
+    margin-left: 120px;
+    padding-top: 80px;
+}
+
+.sect4p {
+    margin-left: 120px;
+}
+
+.div55 {
+    display: flex;
+    gap: 300px;
+}
+
+.dive {
+    display: flex;
+}
+
+.diver {
+    gap: 20px;
+    display: flex;
+    padding-left: 100px;
+    border-radius: 8px;
+}
+
+.butt_all1 {
+    width: 89px;
+    height: 65px;
+    background-color: #7FFA8A;
+    box-sizing: 8px;
+
+}
+
+.butt_all {
+    width: 89px;
+    height: 65px;
+
+
+}
+
+.butt {
+    width: 115px;
+    height: 65px;
+}
+
+.diw {
+    gap: 90px;
+    display: flex;
+    padding-left: 250px;
+}
+
+.diw1 {
+    width: 220px;
+    height: 65px;
+    border-radius: 8px;
+}
+
+.diw2 {
+    width: 142px;
+    height: 65px;
+    border-radius: 8px;
+}
+
+.imgg {
+    padding-left: 400px;
+}
+
+.searc {
+    gap: 30px;
+}
+
+.sect5 {
+    background-color: #0A0A0A;
+
+}
+
+.dar {
+    display: flex;
+    gap: 50px;
+    padding-left: 40px;
+}
+
+.katdiv1 {
+    display: block;
+    width: 360px;
+    height: 480px;
+    gap: 60px;
+    background-color: #5224B5;
+}
+
+.katdiv1:hover {
+    transform: translate(-15px);
+    background-color: #7FFA8A;
+}
+
+.div22 {
+    display: flex;
+    gap: 50px;
+    padding-left: 40px;
+}
+
+.tepa {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.past {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.card-nexsus {
+    width: 290px;
+    height: 200px;
+    background-color: #5224B5;
+}
+
+.steper img {
+    width: 300px;
+}
+
+.steper {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.steper span {
+    color: rgb(70, 198, 155);
+}
+
+.card-main {
+    display: flex;
+    justify-content: center;
+}
+
+.steper1 img {
+    height: 300px;
+}
+
+.card-nexsus1 {
+    width: 290px;
+    height: 250px;
+    background-color: #5224B5;
+
+}
+
+.IMAGE {
+    height: 70px;
+}
+
+.cardd1 {
+    margin-top: 40px;
+
+}
+
+.cardd2 {
+    margin-top: 100px;
+
+}
+
+.cardd2 span {
+    color: #FFF;
+}
+
+.linelar {
+    background-color: #0A0A0A;
+}
+
+.linelar1 {
+    background-color: #0A0A0A;
+    height: 100vh;
+}
+
+.card-main1 {
+    display: flex;
+    margin-left: 240px;
+}
+
+.card-nexsus11 {
+    background-color: #5224B5;
+    width: 290px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+.line5 {
+    width: 300px;
+    margin: 0;
+}
+
+.bb {
+    color: #FFF;
+    position: relative;
+    padding-top: 400px;
+}
+
+.card-nexsus img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card-nexsus p {
+    margin-left: 30px;
+}
+
+
+
+.card-nexsus1 img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card-nexsus1 p {
+    margin-left: 30px;
+}
+
+.card33 {
+    position: relative;
+    top: 190px;
+}
+
+
+.azob {
+    width: 50px;
+    height: 50px;
+}
+
+.qoradiv {
+    height: 40vh;
+    background-color: #0A0A0A;
+    color: #FFF;
+}
+
+.nn {
+    padding-top: 60px;
+    margin-left: 100px;
+}
+
+.mm {
+    margin-left: 100px;
+}
+
+.cc {
+    color: #FFF;
+}
+
+.ee {
+    color: #FFF;
+}
+
+.ppp {
+    background: #7FFA8A;
+    background: linear-gradient(0deg, rgba(127, 250, 138, 1) 30%, rgba(0, 0, 0, 1) 30%);
+}
+
+.top {
+    color: #FFF;
+
+}
+
+.inputt {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inputtt {
+    width: 465px;
+    height: 65px;
+    background-color: #0A0A0A;
+}
+
+.butin {
+    width: 200px;
+    height: 65px;
+    background-color: #FE8235;
+}
+
+.kpanda {
+    width: 960px;
+    height: 960px;
+    margin-left: 280px;
+}
+
+.tugat {
+    background-color: #5224B5;
+    list-style: none;
+}
+
+
+.tdiv {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    list-style: none;
+}
+
+.salom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aa {
+    list-style: none;
+}
+
+.tugat ul {
+    list-style: none;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
